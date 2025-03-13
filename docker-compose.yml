@@ -11,6 +11,7 @@ services:
       - DB_POSTGRESDB_PASSWORD=n8n_password
       - NODE_FUNCTION_ALLOW_EXTERNAL=pg
       - PORT=5555
+      - NODE_ENV=production
     ports:
       - "5555:5555"
     depends_on:
